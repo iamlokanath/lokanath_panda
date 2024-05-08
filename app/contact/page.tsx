@@ -10,7 +10,7 @@ function page() {
   
     const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
       event.preventDefault();
-      console.log('Submitted:', { email, message });
+      alert('Submitted:', { email, message });
     };
 
 
@@ -23,12 +23,10 @@ function page() {
         {' '}
         {/* Add relative and z-10 to bring content to the front */}
         <h1 className="text-lg md:text-7xl text-center font-sans font-bold mb-8 text-white">
-          Contact Us
+          Contact Me
         </h1>
         <p className="text-neutral-500 max-w-lg mx-auto my-2 text-sm text-center">
-          We&apos;re here to help with any questions about our courses,
-          programs, or events. Reach out and let us know how we can assist you
-          in your musical journey.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde qui culpa quod aperiam voluptatibus illo, architecto sequi repellendus saepe impedit, sed, explicabo similique adipisci rem minima. Impedit sunt quis animi.
         </p>
         <form onSubmit={handleSubmit} className="space-y-4 mt-4">
           <input

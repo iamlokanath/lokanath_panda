@@ -1,6 +1,7 @@
 'use client'
 
 import { InfiniteMovingCards } from "@/app/components/ui/infinite-moving-cards";
+import { link } from "fs";
 
 const musicSchoolTestimonials = [
     {
